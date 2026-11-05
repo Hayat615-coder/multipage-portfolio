@@ -4,6 +4,7 @@ import Project from "../pages/Project";
 import Contact from "../pages/Contact";
 import Home from "../pages/Home";
 import Root_component from "./Root_component";
+
 const Router_component = () => {
   let element = useRoutes([
     {
