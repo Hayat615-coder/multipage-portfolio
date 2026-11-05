@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-14 items-center  px-4 md:mt-24">
+      <div className="flex flex-col-reverse md:flex-row gap-14 items-center  px-4 md:mt-24">
         <div className="flex-1/12">
           <h1 className="text-5xl font-bold text-white">
             Hi,I'm <br></br>{" "}
