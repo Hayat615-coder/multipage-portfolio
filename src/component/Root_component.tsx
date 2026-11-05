@@ -80,6 +80,35 @@ const Root_component = () => {
       <main className="p-4">
         <Outlet />
       </main>
+      <footer className="bg-[rgba(30,41,59,0.7)] p-4 mt-8 flex flex-col md:flex-row gap-6 items-center justify-center">
+        <div className="transition-all hover:-translate-y-1 hover:bg-white hover:text-black hover:rounded-lg">
+          <a
+            href=""
+            className="inline-flex items-center gap-2 rounded-lg border border-border/70 bg-card/50 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary/40 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              className="lucide lucide-arrow-up h-4 w-4"
+              aria-hidden="true"
+            >
+              <path d="m5 12 7-7 7 7"></path>
+              <path d="M12 19V5"></path>
+            </svg>
+            Back to top
+          </a>
+        </div>
+        <p className="text-white text-center p-4">
+          &copy; 2026 Hayat Abdurehman. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 };
