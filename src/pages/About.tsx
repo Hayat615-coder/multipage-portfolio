@@ -1,7 +1,6 @@
 const About = () => {
   return (
     <>
-      <div>get to know me</div>
       <h1 className="tracking-wider bg-linear-to-r from-[hsl(162,100%,41%)] to-[hsl(258,90%,66%)] bg-clip-text text-transparent text-center text-5xl">
         About Me
       </h1>

@@ -17,7 +17,7 @@ const info = [
   {
     id: 2,
     image: calculatorImage,
-    link: "https://shiera-calculator.vercel.app/",
+    link: "https://calculator-drab-delta-85.vercel.app/",
     title: "Calculator App",
     description:
       "A simple calculator app that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
@@ -25,7 +25,7 @@ const info = [
   {
     id: 3,
     image: notification,
-    link: "https://shiera-notification.vercel.app/",
+    link: "https://notification-page-qhs6.vercel.app/",
     title: "Notification App",
     description:
       "A notification app that allows users to create, manage, and receive notifications for various events and reminders.",
