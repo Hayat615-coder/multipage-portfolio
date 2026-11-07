@@ -59,21 +59,41 @@ const Home = () => {
               </Link>
             </div>
             <div className="flex flex-row gap-8 mt-10 ml-10">
-              <button className=" bg-transparent rounded-full p-1 border border-gray-400">
-                <i className="fa-brands fa-github text-white"></i>
-              </button>
-              <button className=" bg-transparent rounded-full p-1 border border-gray-400">
-                <i className="fa-brands fa-linkedin-in text-white"></i>
-              </button>
-              <button className=" bg-transparent rounded-full p-1 border border-gr">
-                <i className="fa-brands fa-instagram text-white"></i>
-              </button>
-              <button className=" bg-transparent rounded-full p-1 border border-gray-400">
-                <i
-                  className="fa-regular fa-envelope text-white"
-                  aria-hidden="true"
-                ></i>
-              </button>
+              <a
+                href="https://github.com/Hayat615-coder"
+                target="_blank"
+                className="flex flex-row gap-2 items-center"
+              >
+                <button className=" bg-transparent rounded-full p-1 border border-gray-400">
+                  <i className="fa-brands fa-github text-white"></i>
+                </button>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hayat-abdurehman-490003343?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                target="_blank"
+                className="flex flex-row gap-2 items-center"
+              >
+                <button className=" bg-transparent rounded-full p-1 border border-gray-400">
+                  <i className="fa-brands fa-linkedin-in text-white"></i>
+                </button>
+              </a>
+              <a
+                href="https://www.instagram.com/yuyu6_1_5_6?dlrf=MWJhaGNvNGJ0ejJieQ=="
+                target="_blank"
+                className="flex flex-row gap-2 items-center"
+              >
+                <button className=" bg-transparent rounded-full p-1 border border-gray-400">
+                  <i className="fa-brands fa-instagram text-white"></i>
+                </button>
+              </a>
+              <a href="mailto:yuyutayaho66@gmail.com">
+                <button className=" bg-transparent rounded-full p-1 border border-gray-400">
+                  <i
+                    className="fa-regular fa-envelope text-white"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </a>
             </div>
             <div className="flex flex-row gap-6 mt-10">
               <div className="border border-gray-400  py-4 px-8 rounded-lg">
