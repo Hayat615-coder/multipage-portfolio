@@ -1,3 +1,5 @@
+import { Link } from "react-router/internal/react-server-client";
+
 const Contact = () => {
   return (
     <>
@@ -165,6 +167,17 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Link
+        to="/pages/Project"
+        className="mt-6 flex justify-start items-center"
+      >
+        <button
+          type="button"
+          className="bg-[hsl(162,100%,41%)] p-2 rounded-full"
+        >
+          <i className="fa-solid fa-arrow-left text-white"></i>
+        </button>
+      </Link>
     </>
   );
 };

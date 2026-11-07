@@ -112,6 +112,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Link to="./pages/about" className="mt-6 flex justify-end items-center">
+        <button
+          type="button"
+          className="bg-[hsl(162,100%,41%)] p-2 rounded-full"
+        >
+          <i className="fa-solid fa-arrow-right text-white"></i>
+        </button>
+      </Link>
     </>
   );
 };

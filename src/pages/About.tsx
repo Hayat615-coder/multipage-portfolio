@@ -1,3 +1,5 @@
+import { Link } from "react-router/internal/react-server-client";
+
 const About = () => {
   return (
     <>
@@ -118,6 +120,24 @@ const About = () => {
             aria-hidden="true"
           ></i>
         </button>
+      </div>
+      <div className="flex flex-row justify-between">
+        <Link to="/" className="mt-6 flex items-center">
+          <button
+            type="button"
+            className="bg-[hsl(162,100%,41%)] p-2 rounded-full"
+          >
+            <i className="fa-solid fa-arrow-left text-white"></i>
+          </button>
+        </Link>
+        <Link to="/pages/Project" className="mt-6 flex items-center">
+          <button
+            type="button"
+            className="bg-[hsl(162,100%,41%)] p-2 rounded-full"
+          >
+            <i className="fa-solid fa-arrow-right text-white"></i>
+          </button>
+        </Link>
       </div>
     </>
   );
